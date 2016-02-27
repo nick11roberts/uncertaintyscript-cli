@@ -17,5 +17,5 @@ task run(type: JavaExec, dependsOn: classes) {
     main = 'Cli'
     classpath sourceSets.main.runtimeClasspath
     classpath configurations.runtime
+    standardInput = System.in
 }
-
